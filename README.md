@@ -12,5 +12,5 @@
 
 Ödevler / Konular                                                                                                                                                            | Screenshots
 ---                                                                                                                                                                          |---
-[Ödev 1](01-Ödev 1) - *Değişken Türleri* <br/>(with challenges)                                         <br/><sub> View controllers, Storyboard, FileManager                               </sub> | ![screen1](01-Project1/screenshots/small/screen01.png) ![Screenshot 2023-01-04 at 01 03 53](https://user-images.githubusercontent.com/77938037/210448935-98818b62-c603-4bca-8c81-9b5afd3ba991.png) |
+[Project 1] - *Değişken Türleri* <br/>                                         <br/><sub> View controllers, Storyboard, FileManager                               </sub> | ![2023-01-04 00 52 38](https://user-images.githubusercontent.com/77938037/210447657-2544ec2d-a854-4d39-b441-694043fe0c5e.jpg) ![Screenshot 2023-01-04 at 01 03 53](https://user-images.githubusercontent.com/77938037/210449520-4f1f7a6b-e570-4df4-9eef-c0c6a6241869.png) |
 
