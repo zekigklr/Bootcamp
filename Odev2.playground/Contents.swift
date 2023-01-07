@@ -107,8 +107,33 @@ f.cevre(x: 10, y: 5)
 
 //Soru 6
 
+func faktoriyel( sayi : Int ) -> Int {
+        var x = 1
+        
+        for i in 1...sayi {
+            x *= i
+        }
+        return x
+        
+    }
 
+    print ( faktoriyel(sayi: 5))
     
-    
+
 
 //Soru 7
+
+func buraya(kelimegirin: String) -> Int{
+    
+    var x = 0
+    
+    for i in kelimegirin {
+        if i == "a" {
+            x += 1
+        }
+    }
+    print("Metnin içinde \(x) tane 'a' harfi bulunuyor.")
+    return x
+}
+
+buraya(kelimegirin: "Bunu yaparken biraz zorlandım ama güzeldi :)")
