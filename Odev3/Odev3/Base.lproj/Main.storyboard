@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bxg-ij-YA9">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Odev3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meditation" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-3x-g0u">
+                                <rect key="frame" x="28" y="366" width="332" height="289"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="289" id="Lzc-2H-jQD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Say Hi To Your Self-Care Journal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogn-ud-Jc6">
+                                <rect key="frame" x="25" y="153" width="335" height="82"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="41"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicate more, stress less" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0S8-b6-V68">
+                                <rect key="frame" x="94.666666666666686" y="285" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="colorGreen"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gaf-tj-Qja">
+                                <rect key="frame" x="65" y="685" width="263" height="49"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get Started">
+                                    <fontDescription key="titleFontDescription" name="HoeflerText-Italic" family="Hoefler Text" pointSize="35"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXa-vm-afa">
+                                <rect key="frame" x="28" y="740.33333333333337" width="63" height="81.666666666666629"/>
+                                <color key="tintColor" red="0.94579081632653061" green="0.49524340986394561" blue="0.88053221288515404" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Skip">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="yaziRenk1"/>
+                        <constraints>
+                            <constraint firstItem="0S8-b6-V68" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0rn-rd-k9J"/>
+                            <constraint firstItem="8IV-3x-g0u" firstAttribute="leading" secondItem="zXa-vm-afa" secondAttribute="leading" id="3jM-rO-yj7"/>
+                            <constraint firstItem="Gaf-tj-Qja" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="6DC-ET-KHI"/>
+                            <constraint firstItem="zXa-vm-afa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="7Vb-5o-gah"/>
+                            <constraint firstItem="zXa-vm-afa" firstAttribute="top" secondItem="Gaf-tj-Qja" secondAttribute="bottom" constant="6.3300000000000001" id="83j-YJ-ila"/>
+                            <constraint firstItem="Ogn-ud-Jc6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="FSd-QU-XG1"/>
+                            <constraint firstItem="Ogn-ud-Jc6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="HIG-I5-eLt"/>
+                            <constraint firstAttribute="bottom" secondItem="zXa-vm-afa" secondAttribute="bottom" constant="30" id="Kyb-fU-6jf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ogn-ud-Jc6" secondAttribute="trailing" constant="33" id="Lbn-sj-Kj5"/>
+                            <constraint firstItem="8IV-3x-g0u" firstAttribute="trailing" secondItem="Ogn-ud-Jc6" secondAttribute="trailing" id="cUc-HP-lAv"/>
+                            <constraint firstItem="Gaf-tj-Qja" firstAttribute="top" secondItem="8IV-3x-g0u" secondAttribute="bottom" constant="30" id="idx-48-HS8"/>
+                            <constraint firstItem="0S8-b6-V68" firstAttribute="top" secondItem="Ogn-ud-Jc6" secondAttribute="bottom" constant="50" id="nwg-W1-r16"/>
+                            <constraint firstItem="Gaf-tj-Qja" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tsf-fv-Pfz"/>
+                            <constraint firstItem="8IV-3x-g0u" firstAttribute="top" secondItem="0S8-b6-V68" secondAttribute="bottom" constant="60" id="w0K-5f-bhi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="J8I-wU-tUN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.40458015267177" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7LP-OX-Oqc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bxg-ij-YA9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EPs-HP-35d">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bsR-dI-AsV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AcZ-hC-Jtq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-89.312977099236633" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="meditation" width="81.333335876464844" height="69"/>
+        <namedColor name="anaRenk">
+            <color red="0.75999999046325684" green="0.96100002527236938" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="colorGreen">
+            <color red="0.55099999904632568" green="0.81000000238418579" blue="0.36899998784065247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

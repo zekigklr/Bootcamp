@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Medicate more, stress less"; ObjectID = "0S8-b6-V68"; */
+"0S8-b6-V68.text" = "Daha fazla meditasyon, daha az stres";
+
+/* Class = "UIButton"; configuration.title = "Get Started"; ObjectID = "Gaf-tj-Qja"; */
+"Gaf-tj-Qja.configuration.title" = "Hadi Başlayalım";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gaf-tj-Qja"; */
+"Gaf-tj-Qja.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Say Hi To Your Self-Care Journal"; ObjectID = "Ogn-ud-Jc6"; */
+"Ogn-ud-Jc6.text" = "Kişisel Bakım Günlüğünüze Merhaba Deyin";
+
+/* Class = "UIButton"; configuration.title = "Skip"; ObjectID = "zXa-vm-afa"; */
+"zXa-vm-afa.configuration.title" = "Geç";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zXa-vm-afa"; */
+"zXa-vm-afa.normalTitle" = "Button";
