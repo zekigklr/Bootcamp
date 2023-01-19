@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     @IBAction func toplama(_ sender: Any) {
         
-        
+        label.text! += " + "
         label2.text = "32"
         if label2.text == "32" {
             if textField2.text != "" {
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     
     */
     @IBAction func num1(_ sender: Any) {
-        
+        label.text! += "1"
         if label2.text == "32" {
             textField2.text! += "\(1)"
         }else{
@@ -63,6 +63,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num2(_ sender: Any) {
+        label.text! += "2"
         if label2.text == "32" {
             textField2.text! += "\(2)"
         }else{
@@ -71,6 +72,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num3(_ sender: Any) {
+        label.text! += "3"
         if label2.text == "32" {
             textField2.text! += "\(3)"
         }else{
@@ -79,6 +81,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num4(_ sender: Any) {
+        label.text! += "4"
         if label2.text == "32" {
             textField2.text! += "\(4)"
         }else{
@@ -87,6 +90,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num5(_ sender: Any) {
+        label.text! += "5"
         if label2.text == "32" {
             textField2.text! += "\(5)"
         }else{
@@ -95,6 +99,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num6(_ sender: Any) {
+        label.text! += "6"
         if label2.text == "32" {
             textField2.text! += "\(6)"
         }else{
@@ -104,6 +109,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num7(_ sender: Any) {
+        label.text! += "7"
         if label2.text == "32" {
             textField2.text! += "\(7)"
         }else{
@@ -113,6 +119,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num8(_ sender: Any) {
+        label.text! += "8"
         if label2.text == "32" {
             textField2.text! += "\(8)"
         }else{
@@ -122,6 +129,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func num9(_ sender: Any) {
+        label.text! += "9"
         if label2.text == "32" {
             textField2.text! += "\(9)"
         }else{
