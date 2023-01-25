@@ -17,13 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdc-Ot-ANI">
-                                <rect key="frame" x="40" y="298" width="334" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <rect key="frame" x="40" y="298" width="334" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="SHs-Ij-c0C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cia-Ua-U5h">
-                                <rect key="frame" x="40" y="328" width="149" height="67"/>
+                                <rect key="frame" x="40" y="377" width="149" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="149" id="Ya1-ZC-wOc"/>
@@ -39,7 +42,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hja-zm-7Ph">
-                                <rect key="frame" x="204" y="328" width="67" height="67"/>
+                                <rect key="frame" x="204" y="377" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="EAT-LX-B5F"/>
@@ -54,7 +57,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQ0-VT-BLg">
-                                <rect key="frame" x="286" y="328" width="67" height="67"/>
+                                <rect key="frame" x="286" y="377" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="67" id="CBN-bH-Q1L"/>
@@ -69,7 +72,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28Y-rx-bQO">
-                                <rect key="frame" x="40" y="410" width="67" height="67"/>
+                                <rect key="frame" x="40" y="459" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="9lh-6M-0r3"/>
@@ -85,7 +88,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6K-k2-avu">
-                                <rect key="frame" x="40" y="492" width="67" height="67"/>
+                                <rect key="frame" x="40" y="541" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="Jxh-67-riJ"/>
@@ -101,7 +104,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnv-Za-Gux">
-                                <rect key="frame" x="40" y="574" width="67" height="67"/>
+                                <rect key="frame" x="40" y="623" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="FSQ-5w-5KY"/>
@@ -117,7 +120,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZY-7O-MQb">
-                                <rect key="frame" x="40" y="656" width="149" height="67"/>
+                                <rect key="frame" x="40" y="705" width="149" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="3uF-IF-rHE"/>
@@ -130,7 +133,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amO-Fn-WWu">
-                                <rect key="frame" x="122" y="410" width="67" height="67"/>
+                                <rect key="frame" x="122" y="459" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="67" id="9Bx-vQ-Oux"/>
@@ -146,7 +149,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jE-Ww-X3r">
-                                <rect key="frame" x="204" y="410" width="67" height="67"/>
+                                <rect key="frame" x="204" y="459" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="Uu1-uC-yv3"/>
@@ -162,7 +165,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpL-Un-pdX">
-                                <rect key="frame" x="286" y="410" width="67" height="67"/>
+                                <rect key="frame" x="286" y="459" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="1zZ-9p-uUu"/>
@@ -173,9 +176,12 @@
                                 <buttonConfiguration key="configuration" style="plain" title="x">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="52"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="carpma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ocT-8W-wAh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aue-Ca-zjw">
-                                <rect key="frame" x="286" y="492" width="67" height="67"/>
+                                <rect key="frame" x="286" y="541" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="Rv6-um-RVd"/>
@@ -188,7 +194,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kn4-4a-Rdz">
-                                <rect key="frame" x="204" y="492" width="67" height="67"/>
+                                <rect key="frame" x="204" y="541" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="FCc-Af-7Iq"/>
@@ -204,7 +210,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmD-EG-6sJ">
-                                <rect key="frame" x="122" y="492" width="67" height="67"/>
+                                <rect key="frame" x="122" y="541" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="hvd-nx-z4j"/>
@@ -220,7 +226,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iM-kP-LyL">
-                                <rect key="frame" x="122" y="574" width="67" height="67"/>
+                                <rect key="frame" x="122" y="623" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="67" id="GxX-9T-zNU"/>
@@ -236,7 +242,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6P-IG-zGZ">
-                                <rect key="frame" x="204" y="574" width="67" height="67"/>
+                                <rect key="frame" x="204" y="623" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="67" id="XBR-XF-g4Y"/>
@@ -252,7 +258,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5h-38-u53">
-                                <rect key="frame" x="286" y="574" width="67" height="67"/>
+                                <rect key="frame" x="286" y="623" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="67" id="OnU-va-Ksy"/>
@@ -269,7 +275,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3J-vK-TQk">
-                                <rect key="frame" x="204" y="656" width="67" height="67"/>
+                                <rect key="frame" x="204" y="705" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="4Ig-Iv-eg5"/>
@@ -284,7 +290,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjZ-x6-Gb4">
-                                <rect key="frame" x="286" y="656" width="67" height="67"/>
+                                <rect key="frame" x="286" y="705" width="67" height="67"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="IHK-BO-riv"/>
@@ -301,16 +307,13 @@
                                     <action selector="esittir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OMK-eC-Iey"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jdj-S6-Vxv">
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jdj-S6-Vxv">
                                 <rect key="frame" x="85" y="113" width="225" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="BKR-iM-HH6"/>
-                                </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rlC-jw-Jng">
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rlC-jw-Jng">
                                 <rect key="frame" x="85" y="186" width="225" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

@@ -40,6 +40,12 @@ class ViewController: UIViewController {
                 let myTextField2Int = Int(myTextField2!)
                 let toplam = myTextField1Int + myTextField2Int
                 label.text = String(toplam)
+                
+                textF.text = String(toplam)
+                label.text = String(toplam)
+                textField2.text = ""
+                
+                
             }
             
         }
@@ -137,23 +143,61 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func carpma(_ sender: Any) {
+        
+        label.text! += " x "
+        label2.text = "32"
+        if label2.text == "32" {
+            if textField2.text != "" {
+                
+                
+                let myTextField1 = Int(textF.text!)//1.sayı
+                let myTextField1Int = Int(myTextField1!)
+                let myTextField2 = Int(textField2.text!)
+                let myTextField2Int = Int(myTextField2!)
+                let carpma = myTextField1Int * myTextField2Int
+                label.text = String(carpma)
+                
+                textF.text = String(carpma)
+                label.text = String(carpma)
+                textField2.text = ""
+                
+                
+            }
+            
+        }
+        
+        
+    }
+    
     @IBAction func esittir(_ sender: Any) {
         
         if textField2.text != "" {
-            
+        
         
         let myTextField1 = Int(textF.text!)//1.sayı
         let myTextField1Int = Int(myTextField1!)
         let myTextField2 = Int(textField2.text!)
         let myTextField2Int = Int(myTextField2!)
         let toplam = myTextField1Int + myTextField2Int
-        label.text = String(toplam)
+        let carpma = myTextField1Int * myTextField2Int
+        
+            
+            
+        if toplam == myTextField1Int + myTextField2Int {
+            label.text = String(toplam)
+        }else if toplam < myTextField1Int * myTextField2Int{
+            label.text = String(carpma)
+            
+        }
+        
+        
+        
         }
     
     }
     
-    @IBAction func textField(_ sender: Any) {
-    }
+    
     
     
 }
