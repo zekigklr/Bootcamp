@@ -18,10 +18,7 @@
 [Ödev 4](04-Ödev4) - *Work Structure* <br/>(---)                                         <br/><sub> Structure, Operators                                             </sub> | ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/77938037/212926455-aefbaf1f-b797-45b9-9454-f8f879ec5519.gif) |
 [Ödev 5](05-Calculator) - *Calculator-algorithm* <br/>(---)                                         <br/><sub> Algorithm, O                                             </sub> | ![odev5gif](https://user-images.githubusercontent.com/77938037/213340930-dc4c790a-72ff-487d-ba35-76b407704fc8.gif) |
 [Ödev 6](06-Netflix) - *Netflix-Clone* <br/>(---)                                         <br/><sub> Repeat, O                                             </sub> | ![Screenshot 2023-01-30 at 23 21 14](https://user-images.githubusercontent.com/77938037/215587875-fefeb3da-5f59-444f-999b-9dec0c75e60c.png)   |
-
-[Ödev 7](07-Netflix) - *To Do Appe* <br/>(---)                                         <br/><sub> Repeat, O                                             </sub> |  ![Screenshot 2023-02-07 at 04 04 20](https://user-images.githubusercontent.com/77938037/217121886-f8eec277-4cf9-447d-9c55-32c5888b699e.png)  |
-
-
+[Ödev 7](07-Netflix) - *To Do App* <br/>(---)                                         <br/><sub> Repeat, O                                             </sub> | ![Screenshot 2023-02-07 at 04 04 20](https://user-images.githubusercontent.com/77938037/217121886-f8eec277-4cf9-447d-9c55-32c5888b699e.png)   |
 
 
 
